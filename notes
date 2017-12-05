@@ -1,0 +1,21 @@
+interactive shell has >>>
+
+orded of operations: 
+1) parentheses -> zdanie wtrącone
+2) Multiplication / division
+3) Addition / Subtraction
+data types
+whole numbers are integers (ints)
+3.14 floating point numbers (floats)
+string 'hello world'
+'word' + 'word' -> string concatenation
+'word' * 3 -> string replication   (wordwordword)
+
+variables
+assignment statement 
+spam = 42 this creates a new variable named spam and stores the value 42 inside
+expressions are one kind of instruction in python. the other kind are statements
+evaluates = expression
+doesnt evaluate = statement
+IDLE is an editor
+interactive shell (>>>) & file editor
