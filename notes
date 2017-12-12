@@ -19,3 +19,9 @@ evaluates = expression
 doesnt evaluate = statement
 IDLE is an editor
 interactive shell (>>>) & file editor
+
+print() function displays the string value inside the parentheses
+input() function evaluate to the string value
+len() takes a string argument and then evaluates to the integer value of the length of the string
+str() and int() functions return string and integer values of whatever you pass them.
+int(),str() and float() convert values data type.
