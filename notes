@@ -25,3 +25,17 @@ input() function evaluate to the string value
 len() takes a string argument and then evaluates to the integer value of the length of the string
 str() and int() functions return string and integer values of whatever you pass them.
 int(),str() and float() convert values data type.
+
+==  equal to
+!= not equal to
+< less than
+> greater than
+<= less than or equal to
+>= greater than or equal to
+
+the "and" operators truth table
+expression         evaluates to
+True and True       True
+True and False      False
+False and True      False
+False and False     False
