@@ -39,3 +39,70 @@ True and True       True
 True and False      False
 False and True      False
 False and False     False
+pythontutor.com
+
+name = 'Kris'
+age = 3000
+if name == 'Alice':
+    print('Hi Alice')
+elif age < 12:
+    print('You are not Alive, kiddo.')
+elif age > 2000:
+    print('Unline you, Alice is not an undead.')
+elif age > 100:
+    print('You are not Alive')
+spam = 0
+while spam < 5:
+    print('Hello, World!')
+    spam = spam + 1
+total = 0
+for num in range(101):
+    total = total + num
+print(total)
+
+print('My name is')
+i = 0
+while i < 5:
+    print('Kris Five times ' + str(i))
+    i = i + 1
+
+print('My name is')
+for i in range(5, -1, -1):
+    print('Kris five times ' + str(i))
+
+import random
+random.randint(1, 10)
+def plusOne(number):
+    return number + 1
+
+newNumber = plusOne(5)
+print(newNumber)
+
+Function are like a mini-program inside your program.
+The main point of functions is to get rid of duplicate code.
+The def statement defines a function.
+The input to functions are arguments. The output is the return value.
+The parameters are the variables in between the function's.
+parentheses in the def statement.
+The return value is specified using the return statement.
+Every function has a return value. If your function doesn't have a return statement, the default return value is None.
+Keyword arguments to functions are usually for optional arguments.
+The print() function has keyword arguments end and sep.
+
+spam = 42 # global variable
+
+def eggs():
+    spam = 42 # local variable
+
+Each function has its own local scope..
+Assignment statement = Local Variable
+No assignment statement = Global variable
+
+A Scope can be thought of as an area of the source code, and as a container of variables.
+The global scope is code outside of all functions. Variables assigned here are global variables.
+Each functions code is in its own local scope. Variables assigned here are local variables.
+Code in the global scope cannot use any local variables.
+Code in a functions local scope cannot use variables in any another functions local scope.
+If there is an assignment statement for a variable in a function, that is a local variable/
+
+
